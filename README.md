@@ -1,1 +1,1 @@
-BUI Studies Course Homework
+BUI Studies Course Homework Assignments
