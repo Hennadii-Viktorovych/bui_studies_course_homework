@@ -32,25 +32,25 @@ body{
 .container{
     width: 100%;
     max-width: 1115px;
-    display: flex;
     margin: 0 auto;
 }
 
 .header{
-    width: 100%;
-    max-width: 1440px;
-    height: 100px;
     display: flex;
     align-items: center;
-    justify-content:space-between;
-    padding: 0px 20px;
-    margin-top: 20px;
+    justify-content: center;
     margin-bottom: 50px;
+    margin-top: 20px;
+
 
     .header__nav{
         display: flex;
         align-items: center;
+        justify-content: center;
         gap: 30px;
+    }
+    .header__logo{
+        padding-right: 200px;
     }
 
     .header__nav-list{
@@ -72,14 +72,10 @@ body{
 
 }
 
-.hero{
-    width: 100%;
-    max-width: 1440px;
+.hero .container{
     display: flex;
     align-items: center;
-    justify-content:space-between;
-    margin-bottom: 100px;
-
+    justify-content: center;
 
     .hero__content{
         width: 100%;
@@ -90,7 +86,7 @@ body{
 
         .hero__title{
             font-weight: 600;
-            font-size: 70px;
+            font-size: 50px;
             line-height: 125%;
             letter-spacing: -0.01em;
             color: #000;
@@ -99,7 +95,7 @@ body{
 
         .hero__text{
             font-weight: 400;
-            font-size: 25px;
+            font-size: 22px;
             line-height: 150%;
             color: #000;
             margin-bottom: 27px;
@@ -108,6 +104,8 @@ body{
 
 
 }
+
+
 
 .partners {
     width: 100%;
